@@ -1,0 +1,11 @@
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+// Enable NSDebug() to NSLog() conversion for Debug builds
+#ifdef DEBUG
+#define NSDebug(format, ...) NSLog(format, ## __VA_ARGS__)
+#else
+#define NSDebug(format, ...)
+#endif

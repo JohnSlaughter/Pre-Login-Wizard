@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735F290916B894B800E2ECF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735F290816B894B800E2ECF5 /* Cocoa.framework */; };
+		735F291316B894B800E2ECF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 735F291116B894B800E2ECF5 /* InfoPlist.strings */; };
+		735F291516B894B800E2ECF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F291416B894B800E2ECF5 /* main.m */; };
+		735F291916B894B800E2ECF5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 735F291716B894B800E2ECF5 /* Credits.rtf */; };
+		735F291C16B894B800E2ECF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F291B16B894B800E2ECF5 /* AppDelegate.m */; };
+		735F291F16B894B800E2ECF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735F291D16B894B800E2ECF5 /* MainMenu.xib */; };
+		735F292616B897DC00E2ECF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735F292516B897DC00E2ECF5 /* QuartzCore.framework */; };
+		737A98BD16C717A30026ACB2 /* WindowPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A98BC16C717A30026ACB2 /* WindowPlus.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		735F290416B894B800E2ECF5 /* Pre-Login Wizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pre-Login Wizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		735F290816B894B800E2ECF5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		735F290B16B894B800E2ECF5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		735F290C16B894B800E2ECF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		735F290D16B894B800E2ECF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		735F291016B894B800E2ECF5 /* Pre-Login Wizard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pre-Login Wizard-Info.plist"; path = "../Pre-Login Wizard/Pre-Login Wizard-Info.plist"; sourceTree = "<group>"; };
+		735F291216B894B800E2ECF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		735F291416B894B800E2ECF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../Pre-Login Wizard/main.m"; sourceTree = "<group>"; };
+		735F291616B894B800E2ECF5 /* Pre-Login Wizard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Pre-Login Wizard-Prefix.pch"; path = "../Pre-Login Wizard/Pre-Login Wizard-Prefix.pch"; sourceTree = "<group>"; };
+		735F291816B894B800E2ECF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		735F291A16B894B800E2ECF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../Pre-Login Wizard/AppDelegate.h"; sourceTree = "<group>"; };
+		735F291B16B894B800E2ECF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../Pre-Login Wizard/AppDelegate.m"; sourceTree = "<group>"; };
+		735F291E16B894B800E2ECF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		735F292516B897DC00E2ECF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		737A98BB16C717A30026ACB2 /* WindowPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WindowPlus.h; path = "../Pre-Login Wizard/WindowPlus.h"; sourceTree = "<group>"; };
+		737A98BC16C717A30026ACB2 /* WindowPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WindowPlus.m; path = "../Pre-Login Wizard/WindowPlus.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		735F290116B894B800E2ECF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735F292616B897DC00E2ECF5 /* QuartzCore.framework in Frameworks */,
+				735F290916B894B800E2ECF5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		735F28F916B894B800E2ECF5 = {
+			isa = PBXGroup;
+			children = (
+				735F290E16B894B800E2ECF5 /* Pre-Login Wizard */,
+				735F290716B894B800E2ECF5 /* Frameworks */,
+				735F290516B894B800E2ECF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		735F290516B894B800E2ECF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				735F290416B894B800E2ECF5 /* Pre-Login Wizard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		735F290716B894B800E2ECF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735F292516B897DC00E2ECF5 /* QuartzCore.framework */,
+				735F290816B894B800E2ECF5 /* Cocoa.framework */,
+				735F290A16B894B800E2ECF5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		735F290A16B894B800E2ECF5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735F290B16B894B800E2ECF5 /* AppKit.framework */,
+				735F290C16B894B800E2ECF5 /* CoreData.framework */,
+				735F290D16B894B800E2ECF5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		735F290E16B894B800E2ECF5 /* Pre-Login Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				737A98BB16C717A30026ACB2 /* WindowPlus.h */,
+				737A98BC16C717A30026ACB2 /* WindowPlus.m */,
+				735F291A16B894B800E2ECF5 /* AppDelegate.h */,
+				735F291B16B894B800E2ECF5 /* AppDelegate.m */,
+				735F291D16B894B800E2ECF5 /* MainMenu.xib */,
+				735F290F16B894B800E2ECF5 /* Supporting Files */,
+			);
+			path = "Pre-Login Wizard";
+			sourceTree = "<group>";
+		};
+		735F290F16B894B800E2ECF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				735F291016B894B800E2ECF5 /* Pre-Login Wizard-Info.plist */,
+				735F291116B894B800E2ECF5 /* InfoPlist.strings */,
+				735F291416B894B800E2ECF5 /* main.m */,
+				735F291616B894B800E2ECF5 /* Pre-Login Wizard-Prefix.pch */,
+				735F291716B894B800E2ECF5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		735F290316B894B800E2ECF5 /* Pre-Login Wizard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735F292216B894B800E2ECF5 /* Build configuration list for PBXNativeTarget "Pre-Login Wizard" */;
+			buildPhases = (
+				735F290016B894B800E2ECF5 /* Sources */,
+				735F290116B894B800E2ECF5 /* Frameworks */,
+				735F290216B894B800E2ECF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pre-Login Wizard";
+			productName = "Asset Wizard";
+			productReference = 735F290416B894B800E2ECF5 /* Pre-Login Wizard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		735F28FB16B894B800E2ECF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Engineering & Science Computing";
+			};
+			buildConfigurationList = 735F28FE16B894B800E2ECF5 /* Build configuration list for PBXProject "Pre-Login Wizard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 735F28F916B894B800E2ECF5;
+			productRefGroup = 735F290516B894B800E2ECF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				735F290316B894B800E2ECF5 /* Pre-Login Wizard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		735F290216B894B800E2ECF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735F291316B894B800E2ECF5 /* InfoPlist.strings in Resources */,
+				735F291916B894B800E2ECF5 /* Credits.rtf in Resources */,
+				735F291F16B894B800E2ECF5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		735F290016B894B800E2ECF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735F291516B894B800E2ECF5 /* main.m in Sources */,
+				735F291C16B894B800E2ECF5 /* AppDelegate.m in Sources */,
+				737A98BD16C717A30026ACB2 /* WindowPlus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		735F291116B894B800E2ECF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735F291216B894B800E2ECF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = "../Pre-Login Wizard";
+			sourceTree = "<group>";
+		};
+		735F291716B894B800E2ECF5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735F291816B894B800E2ECF5 /* en */,
+			);
+			name = Credits.rtf;
+			path = "../Pre-Login Wizard";
+			sourceTree = "<group>";
+		};
+		735F291D16B894B800E2ECF5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735F291E16B894B800E2ECF5 /* en */,
+			);
+			name = MainMenu.xib;
+			path = "../Pre-Login Wizard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		735F292016B894B800E2ECF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		735F292116B894B800E2ECF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		735F292316B894B800E2ECF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pre-Login Wizard/Pre-Login Wizard-Prefix.pch";
+				INFOPLIST_FILE = "Pre-Login Wizard/Pre-Login Wizard-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Pre-Login Wizard";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		735F292416B894B800E2ECF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pre-Login Wizard/Pre-Login Wizard-Prefix.pch";
+				INFOPLIST_FILE = "Pre-Login Wizard/Pre-Login Wizard-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Pre-Login Wizard";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		735F28FE16B894B800E2ECF5 /* Build configuration list for PBXProject "Pre-Login Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735F292016B894B800E2ECF5 /* Debug */,
+				735F292116B894B800E2ECF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735F292216B894B800E2ECF5 /* Build configuration list for PBXNativeTarget "Pre-Login Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735F292316B894B800E2ECF5 /* Debug */,
+				735F292416B894B800E2ECF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 735F28FB16B894B800E2ECF5 /* Project object */;
+}
